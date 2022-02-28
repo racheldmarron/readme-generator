@@ -1,7 +1,7 @@
 ## README Generator
 
 ## Link to Deployed Assets
-https://racheldmarron.github.io/readme-generator/
+https://racheldmarron.github.io/readme-generator/ <br>
 https://youtu.be/FgSEUMBeceA 
 
 ## Overview 
@@ -48,7 +48,7 @@ THEN I am taken to the corresponding section of the README
 ![](./assets/images/readme-generator-ref-2.png)
 
 ## Video
-![](./assets/video/readme-generator-video.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FgSEUMBeceA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - - -
