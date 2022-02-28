@@ -1,45 +1,54 @@
-## Weather Dashboard
+## README Generator
 
 ## Link to Deployed Assets
-https://racheldmarron.github.io/city-weather-dashboard/
+https://racheldmarron.github.io/readme-generator/
+https://youtu.be/FgSEUMBeceA 
 
 ## Overview 
-Through APIs, JavaScript, HTML, and CSS, I created a weather dashboard where consumers can search and view current and 5-day forcasts of their desired city. 
+Using node index.js, the user will be able to enter pre-set questions on the command line that will generate a README file. 
 
 ## User Story
 ```md
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 ```
 
 ## Acceptance Criteria
 ```md
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
 ```
 
 ## How This Was Achieved
 <ul>
-<li>Using type to search, the user can search for their desired city to view weather.</li>
-<li>The current weather pops up with location, temperture, UV index, humidity, and high speed</li>
-<li>The full 5-day forcast pops up as well showing the above features for the next 5 days.</li>
-<li>A responsive layout and styling features to make the application unique to me.</li>
+<li>Created and index.js file and pulled the inquirer through node using an npm init and npm install </li>
+<li> Added a generatemarkdown file where the formatting of the README file lives</li>
+<li>When a user uses node index.js on the command line, they are walked through generated questions they can answer to create their readme file</li>
+<li>Using the writetofile and init functions, a readme generator is created once the user answers all the questions on the command line</li>
 </ul>
 
 ## Visual Representations
+## Images 
 
-![](./assets/images/weather-dash-ref-1.png)
-![](./assets/images/weather-dash-ref-2.png)
+![](./assets/images/readme-generator-ref-1.png)
+![](./assets/images/readme-generator-ref-2.png)
+
+## Video
+![](./assets/video/readme-generator-video.mp4)
 
 
 - - -
