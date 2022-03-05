@@ -50,6 +50,15 @@ THEN I am taken to the corresponding section of the README
 ## Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FgSEUMBeceA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Contributors
+
+- N/A
+
+## License
+
+This application is covered under MIT License    
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 - - -
 © 2021 Rachel Delaney Marron, Inc. All Rights Reserved.
